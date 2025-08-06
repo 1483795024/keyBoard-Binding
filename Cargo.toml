@@ -1,0 +1,22 @@
+[package]
+name = "keyboard-binding"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+embed-resource = "2.4"
+
+[dependencies]
+rdev = "0.5.3"
+rayon = "1.7.0"
+windows-hotkeys = "0.2.0"
+font-kit = "0.11"
+egui = "0.26.0"
+eframe = "0.26.0"
+egui_dnd = "0.7"
+once_cell = "1"
+nanoid = "0.4.0"
+image = "0.25"
